@@ -44,6 +44,7 @@ namespace DAQ6510MonitorEnergyUnit
             Stopwatch CHANTIME = new Stopwatch();
 
             myStpWtch.Start();
+            Console.WriteLine("111");
 
             // Clear any script local to the DAQ6510 which has the name "loadfuncs"
             instrWrite(myInstr, "if loadfuncs ~= nil then script.delete('loadfuncs') end\n");
