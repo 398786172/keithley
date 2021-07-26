@@ -33,6 +33,7 @@ namespace DAQ6510_IVI_COM_Scan_with_Frequency_CSharp
             // Create a Stopwatch object and capture the program start time from the system.
             Stopwatch myStpWtch = new Stopwatch();
             myStpWtch.Start();
+            Console.WriteLine("ASD");
 
             // Start by instantiating a DAQ6510 control object and printing the model info to the console.
             String resource_name = "USB0::0x05E6::0x6510::04340543::INSTR";
