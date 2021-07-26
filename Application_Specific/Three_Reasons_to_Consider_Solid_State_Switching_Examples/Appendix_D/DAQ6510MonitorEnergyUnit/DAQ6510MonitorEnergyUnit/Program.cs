@@ -45,7 +45,9 @@ namespace DAQ6510MonitorEnergyUnit
 
             myStpWtch.Start();
             Console.WriteLine("111");
+            Console.WriteLine("222");
             Console.WriteLine("333");
+
 
             // Clear any script local to the DAQ6510 which has the name "loadfuncs"
             instrWrite(myInstr, "if loadfuncs ~= nil then script.delete('loadfuncs') end\n");
